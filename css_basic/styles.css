@@ -1,23 +1,54 @@
-
-body{
+body {
     display: flex;
     flex-direction: column;
-
+    height: 100vh;            
+    margin: 0;
+    background-color: rgb(16, 16, 49);
+    color:#f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 10px;
 }
 
-main{
+
+
+
+main {
     display: flex;
     flex-direction: row;
     flex: auto;
 }
 
-article{
+
+article {
     flex: 2;
     overflow-y: auto;
+    background-color: rgb(213, 213, 216);
+    color:black;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+    color: #111;;
+    padding: 15px;
+    border-left: 2px solid white;
+}
+
+h1 {
+    color: #161616;
+}
+
+a {
+    color: #f0ad95 !important;
+    text-decoration: none;
 
 }
 
-aside{
-    flex: 1;
-    overflow-y: auto;
+footer {
+    color:#f0ad95 !important;
 }
