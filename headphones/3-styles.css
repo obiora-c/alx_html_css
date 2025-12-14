@@ -23,7 +23,7 @@ body{
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10 20px;
 
 }
 
@@ -73,6 +73,43 @@ nav{
 a:active
 {
     color: #FF6565;
+}
+
+.OG{
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 20px;
+    
+}
+
+.OG h2{
+    margin-top: 0;
+    margin-bottom: 30px; 
+    font-size: 15px; 
+}
+
+
+
+.OG button{
+    background-color:#FF6565;
+    border-radius: 20px;
+    color:white;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.OG button:hover,
+.OG button:active
+{
+    opacity: 0.9;  
+}
+
+.OG label{
+
+    margin-bottom: 100px;
 }
 
 
@@ -133,8 +170,9 @@ a:active
 .what-we-do{
     background-color: white ;
     color: black;
-    padding: 80px 5vw;
+    padding: 100px 5vw;
     text-align: center;
+    margin-bottom: 20px;
 
 
 }
@@ -192,6 +230,8 @@ a:active
     
 }
 
+
+
 .result-row{
     display: flex;
     justify-content: space-between;
@@ -243,6 +283,14 @@ a:active
 
 
 
-.our-result h2{
-    margin-top: 150px;
+
+.footer{
+    background-color: rgb(11, 11, 34);
+    color: white;
+
 }
+
+
+
+
+
